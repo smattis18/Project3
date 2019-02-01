@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wavesurfer</title>
+</head>
+<body>
+
+    <div id="lead-form"></div>
+    <div id="rhythm-form"></div>
+    <div id="drum-form"></div>
+
+    <br>
+
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+    <button id="loop">Loop</button>
+
+    <br>
+
+    <button id="rewind">Rewind</button>
+    <button id="forward">Fast Forward</button>
+
+    <br>
+    <br>
+
+    <button id="lead">Add lead</button>
+    <button id="rhythm">Add rhythm</button>
+    <button id="drums">Add drums</button>
+
+    <br>
+    <br>
+
+    <button id="add-delay">Add lead delay</button>
+    
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+
+    <script>
+    // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyAKwqj7NxWYPMa7uyK14T3HHC84I37uTfg",
+        authDomain: "mf-test-bafa6.firebaseapp.com",
+        databaseURL: "https://mf-test-bafa6.firebaseio.com",
+        projectId: "mf-test-bafa6",
+        storageBucket: "mf-test-bafa6.appspot.com",
+        messagingSenderId: "924961467216"
+    };
+        firebase.initializeApp(config);
+    </script>
+
+    <!-- Jquery -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Wavesurfer -->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.cursor.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js"></script>
+
+    <!-- Pizzicato -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.js"></script>
+
+    <script src="wavesurfer.js"></script>
+</body>
+</html>
