@@ -17,11 +17,24 @@
     <button id="play">Play</button>
     <button id="pause">Pause</button>
     <button id="loop">Loop</button>
+    <div class="slidecontainer">
+        <br>
+        Master Volume <br>
+        <input type="range" min="0" max="100" value="100" class="slider" id="master-volume">
+    </div>
 
     <br>
 
     <button id="rewind">Rewind</button>
     <button id="forward">Fast Forward</button>
+
+    <br>
+    <br>
+
+    <button id="mute-all">Mute</button>
+    <button id="mute-lead">Mute Lead</button>
+    <button id="mute-rhythm">Mute Rhythm</button>
+    <button id="mute-drums">Mute Drums</button>
 
     <br>
     <br>
@@ -33,7 +46,16 @@
     <br>
     <br>
 
-    <button id="add-delay">Add lead delay</button>
+    <button id="delete">Delete</button>
+
+    <br>
+    <br>
+
+    <form>
+        Choose the Wave Color!<br>
+        <input type="text" name="wave-color" id="wave-color">
+    </form>
+    <button id="choose-color">Select</button>
     
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
@@ -63,9 +85,7 @@
     <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.cursor.min.js"></script>
     <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js"></script>
 
-    <!-- Pizzicato -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.js"></script>
-
+    <!-- Link to my js -->
     <script src="wavesurfer.js"></script>
 </body>
 </html>
