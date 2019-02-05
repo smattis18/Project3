@@ -1,13 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
+import "./style.css";
 
-function Wrapper() {
-  return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
-  );
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
 }
 
 export default Wrapper;

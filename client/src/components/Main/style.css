@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color: white;
+    height: 70vh;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.jumbotron-fluid {
+    height: 70vh;
+    /*background-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;*/
+}
+
+.column-hdr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+    margin-bottom: 0px;
+}
+
+.dropdown-item {
+    font-weight: bold;
+}
+
+#dropdown {
+    padding: 10px 0px;
+    width: 100%;
+}
