@@ -1,0 +1,16 @@
+header {
+    color: white;
+}
+
+.fa {
+    font-size: 48px;
+}
+
+#column1 {
+    background-color: black;
+}
+
+#column2 {
+    background-color: blue;
+    font-size: 48px;
+}
