@@ -9,64 +9,64 @@ function Main(props) {
             <div className="col-2">
               <div className="jumbotron-fluid">
                 <h5 className="column-hdr">Tracks</h5>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Lead Guitar
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Rhythm Guitar
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Bass Guitar
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Drums
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Keyboards/Synth
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
-              <div class="dropdown">
-                <button class="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div className="dropdown">
+                <button className="dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Vocals
                 </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Track 1</a>
-                <a class="dropdown-item" href="#">Track 2</a>
-                <a class="dropdown-item" href="#">Track 3</a>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">Track 1</a>
+                <a className="dropdown-item" href="#">Track 2</a>
+                <a className="dropdown-item" href="#">Track 3</a>
               </div>
               </div>
               </div>

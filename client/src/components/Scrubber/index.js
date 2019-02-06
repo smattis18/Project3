@@ -1,4 +1,5 @@
 import React from 'react';
+import Horizontal from '../Horizontal';
 import "./style.css";
 
 function Scrubber(props) {
@@ -11,12 +12,10 @@ function Scrubber(props) {
               <table className="table-sm table-borderless mx-auto" id="controls">
                 <tbody>
                   <tr>
-                    <td colspan="3">
-                      <div className="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange" />
-                      </div>
+                    <td colSpan="3">
+                      <Horizontal />
                     </td>
-                  </tr>
+                  </tr> 
                   <tr>
                     <td className="panel">
                       <button className="panel-btn"><i className="fa fa-backward"></i></button>
