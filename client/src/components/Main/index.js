@@ -1,4 +1,5 @@
 import React from 'react';
+import Waveform from '../Test';
 import "./style.css";
 
 function Main(props) {
@@ -73,6 +74,7 @@ function Main(props) {
             </div>
             <div className="col-8">
               <div className="jumbotron">
+              <div clasName='parent-component'><Waveform src={'https://firebasestorage.googleapis.com/v0/b/mf-test-bafa6.appspot.com/o/poppunklead2.mp3?alt=media&token=ce9dede6-5f64-49c6-8549-125fea2fdd62'} /></div>
               </div>
             </div>
             <div className="col-2">
